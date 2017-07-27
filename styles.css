@@ -156,6 +156,19 @@ main {
   width: 85vw;
   display: inline-block;
   margin: -2px 0 -2px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.circle-graph {
+  border: 1px solid blue;
+  margin: 30px;
+}
+
+.bar-graph {
+  border: 1px solid blue;
+  margin: 30px;
 }
 
 .content-bottom {
