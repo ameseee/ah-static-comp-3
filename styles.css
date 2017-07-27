@@ -6,15 +6,16 @@
 
 /*===MAIN NAV===*/
 .main-nav-container {
-  height: 185vh;
+  height: 195vh;
   width: 15vw;
   display: flex;
   flex-wrap: wrap;
   border: 2px solid red;
   float: left;
+  display: inline-block;
 }
 
-.main-nav-box {
+/*.main-nav-box {
   height: 25%;
   border: 1px solid magenta;
   display: block;
@@ -37,21 +38,29 @@
 .categories-menu {
   height: 80vh;
   width: 15vw;
+}*/
+
+/*===MAIN==*/
+
+main {
+  float: right;
+  display: inline-block;
+  width: 85vw;
 }
 
 /*===SEARCH BAR NAV===*/
 
 .search-bar-nav {
   border: 1px solid orange;
-  height: 13vh;
+  height: 15vh;
   width: 85vw;
-  display: inline-block;
+  /*display: inline-block;
   margin: -2px 0 -2px 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
 }
 
-.left-search-nav {
+/*.left-search-nav {
   float: left;
 }
 
@@ -69,12 +78,12 @@
   border: 1px solid green;
   display: inline-block;
   margin: -2px -2px -2px -2px;
-}
+}*/
 
 /*.right-search-nav {
   float: right;
 }*/
-
+/*
 .search-profile {
   height: 13vh;
   width: 7vw;
@@ -97,48 +106,95 @@
   border: 1px solid green;
   display: inline-block;
   margin: -2px -2px -2px -2px;
-}
+}*/
 
 /*===DASHBOARD TOP===*/
 .dashboard-top {
   border: 1px solid green;
-  height: 25vh;
+  height: 30vh;
   width: 85vw;
   display: inline-block;
   margin: -2px 0 -2px 0;
 }
 
 /*===DASHBOARD BOTTOM===*/
-.dashboard-content-1 {
+.content-1 {
   border: 1px solid orange;
-  height: 35vh;
+  height: 45vh;
   width: 85vw;
   display: inline-block;
   margin: -2px 0 -2px 0;
 }
 
-.dashboard-content-bottom {
+.content-bottom {
   border: 1px solid blue;
   width: 85vw;
-  height: 112.5vh;
+  height: 108vh;
   display: inline-block;
   margin: -2px 0 -2px 0;
   display: flex;
   flex-wrap: wrap;
 }
 
-.dashboard-content-2 {
+.content-2 {
   border: 1px solid pink;
   width: 60%;
-  height: 112.5vh;
+  height: 108vh;
   display: inline-block;
   margin: -2px 0 -2px 0;
 }
 
-.dashboard-content-3 {
+.content-3 {
   border: 1px solid purple;
   width: 40%;
-  height: 112.5vh;
+  height: 108vh;
   display: inline-block;
-    margin: -2px 0 -2px 0;
+  margin: -2px 0 -2px 0;
+}
+
+/*===DASHBOARD BOTTOM===*/
+
+@media(max-width: 1000px) {
+
+  main {
+    width: 80vw;
+  }
+
+  .main-nav-container {
+    width: 20vw;
+  }
+
+  .search-bar-nav {
+    height: 8vh;
+  }
+
+  .dashboard-top {
+    height: 40vh;
+  }
+
+  .content-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content-1 {
+    height: 80vh;
+  }
+  
+  .content-2,
+  .content-3 {
+    width: 100%;
+  }
+
+  .content-2 {
+    height: 68vh;
+  }
+
+  .content-3 {
+    height: 40vh;
+  }
+}
+
+@media(max-width: 840px) {
+
 }
