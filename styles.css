@@ -98,7 +98,7 @@ main {
   width: 7.5vw;
   background-color: blue;
   display: inline-block;
-  margin: -2px 0 -2px 0;
+  margin: 0 0 -2px 0;
 }
 
 .search-calendar{
@@ -106,7 +106,7 @@ main {
   width: 7.5vw;
   background-color: red;
   display: inline-block;
-  margin: -2px 0 -2px 0;
+  margin: 0 0 -2px 0;
 }
 
 .search-options {
@@ -114,7 +114,7 @@ main {
   width: 7.5vw;
   background-color: yellow;
   display: inline-block;
-  margin: -2px 0 -2px 0;
+  margin: 0 0 -2px 0;
 }
 
 /*===DASHBOARD TOP===*/
@@ -123,9 +123,32 @@ main {
   height: 30vh;
   width: 85vw;
   display: inline-block;
-  margin: -2px 0 -2px 0;
+  margin: 0 0 -2px 0;
+  /*display: flex;
+  align-content: space-between;*/
 }
 
+.upper-dashboard-top {
+  border: 1px solid turquoise;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dashboard-name {
+  border: 1px solid red;
+  font-size: 30px;
+  padding: 5px 5px 75px 5px;
+}
+
+.dashboard-btns {
+  border: 1px solid red;
+}
+
+.dashboard-menu {
+  border: 1px solid red;
+  padding-top: 30px;
+}
 /*===DASHBOARD BOTTOM===*/
 .content-1 {
   border: 1px solid orange;
