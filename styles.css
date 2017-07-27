@@ -3,3 +3,79 @@
   margin: 0;
   padding: 0;
 }
+/*
+body {
+  display: flex;
+  flex-wrap: wrap;
+}*/
+
+/*===MAIN NAV===*/
+.main-nav-container {
+  height: 150vh;
+  width: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+  float: left;
+}
+
+.main-nav-box {
+  /*width: 15%;*/
+  height: 25%;
+  border: 1px solid magenta;
+  display: block;
+}
+
+/*===SEARCH BAR NAV===*/
+
+.search-bar-nav {
+  border: 1px solid orange;
+  height: 10vh;
+  width: 85vw;
+  display: inline-block;
+  margin: -2px 0 -2px 0;
+}
+
+/*===DASHBOARD TOP===*/
+.dashboard-top {
+  border: 1px solid green;
+  height: 20vh;
+  width: 85vw;
+  display: inline-block;
+  margin: -2px 0 -2px 0;
+}
+
+/*===DASHBOARD BOTTOM===*/
+.dashboard-content-1 {
+  border: 1px solid orange;
+  height: 30vh;
+  width: 85vw;
+  display: inline-block;
+  margin: -2px 0 -2px 0;
+}
+
+.dashboard-content-bottom {
+  border: 1px solid blue;
+  width: 85vw;
+  height: 90vh;
+  display: inline-block;
+  margin: -2px 0 -2px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dashboard-content-2 {
+  border: 1px solid pink;
+  width: 60%;
+  height: 90vh;
+  display: inline-block;
+  margin: -2px 0 -2px 0;
+}
+
+.dashboard-content-3 {
+  border: 1px solid purple;
+  width: 40%;
+  height: 90vh;
+  display: inline-block;
+    margin: -2px 0 -2px 0;
+}
