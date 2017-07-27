@@ -15,14 +15,14 @@
   display: inline-block;
 }
 
-/*.main-nav-box {
+.main-nav-box {
   height: 25%;
   border: 1px solid magenta;
   display: block;
 }
 
 .name {
-  height: 25vh;
+  height: 30vh;
   width: 15vw;
 }
 
@@ -38,7 +38,7 @@
 .categories-menu {
   height: 80vh;
   width: 15vw;
-}*/
+}
 
 /*===MAIN==*/
 
@@ -53,60 +53,69 @@ main {
 .search-bar-nav {
   border: 1px solid orange;
   height: 15vh;
-  /*width: 85vw;*/
-  /*display: inline-block;
+  display: inline-block;
   margin: -2px 0 -2px 0;
+  width: 85vw;
   display: flex;
-  flex-wrap: wrap;*/
+  flex-direction: row;
 }
 
-/*.left-search-nav {
+.left-search-nav {
   float: left;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 
 .search-hamburger {
-  height: 13vh;
+  height: 15vh;
   width: 7vw;
-  border: 1px solid green;
+  background-color: green;
   display: inline-block;
-  margin: -2px -2px -2px -2px;
+  /*margin: -2px -2px -2px -2px;*/
 }
 
 .search-input {
-  height: 13vh;
+  height: 15vh;
   width: 56vw;
-  border: 1px solid green;
+  background-color: pink;
   display: inline-block;
-  margin: -2px -2px -2px -2px;
-}*/
+  /*margin: -2px -2px -2px -2px;*/
+}
 
-/*.right-search-nav {
+.right-search-nav {
+  border: 1px solid black;
+  height: 15vh;
+  width: 22vw;
   float: right;
-}*/
-/*
-.search-profile {
-  height: 13vh;
-  width: 7vw;
-  border: 1px solid green;
   display: inline-block;
-  margin: -2px -2px -2px -2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-profile {
+  height: 15vh;
+  width: 7.5vw;
+  background-color: blue;
+  display: inline-block;
+  margin: -2px 0 -2px 0;
 }
 
 .search-calendar{
-  height: 13vh;
-  width: 7vw;
-  border: 1px solid green;
+  height: 15vh;
+  width: 7.5vw;
+  background-color: red;
   display: inline-block;
-  margin: -2px -2px -2px -2px;
+  margin: -2px 0 -2px 0;
 }
 
 .search-options {
-  height: 13vh;
-  width: 7vw;
-  border: 1px solid green;
+  height: 15vh;
+  width: 7.5vw;
+  background-color: yellow;
   display: inline-block;
-  margin: -2px -2px -2px -2px;
-}*/
+  margin: -2px 0 -2px 0;
+}
 
 /*===DASHBOARD TOP===*/
 .dashboard-top {
