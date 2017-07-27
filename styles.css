@@ -3,16 +3,11 @@
   margin: 0;
   padding: 0;
 }
-/*
-body {
-  display: flex;
-  flex-wrap: wrap;
-}*/
 
 /*===MAIN NAV===*/
 .main-nav-container {
-  height: 150vh;
-  width: 15%;
+  height: 185vh;
+  width: 15vw;
   display: flex;
   flex-wrap: wrap;
   border: 2px solid red;
@@ -20,26 +15,94 @@ body {
 }
 
 .main-nav-box {
-  /*width: 15%;*/
   height: 25%;
   border: 1px solid magenta;
   display: block;
+}
+
+.name {
+  height: 25vh;
+  width: 15vw;
+}
+
+.main-menu {
+  height: 40vh;
+  width: 15vw;
+}
+
+.admin-menu {
+  height: 40vh;
+  width: 15vw;
+}
+.categories-menu {
+  height: 80vh;
+  width: 15vw;
 }
 
 /*===SEARCH BAR NAV===*/
 
 .search-bar-nav {
   border: 1px solid orange;
-  height: 10vh;
+  height: 13vh;
   width: 85vw;
   display: inline-block;
   margin: -2px 0 -2px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-search-nav {
+  float: left;
+}
+
+.search-hamburger {
+  height: 13vh;
+  width: 7vw;
+  border: 1px solid green;
+  display: inline-block;
+  margin: -2px -2px -2px -2px;
+}
+
+.search-input {
+  height: 13vh;
+  width: 56vw;
+  border: 1px solid green;
+  display: inline-block;
+  margin: -2px -2px -2px -2px;
+}
+
+/*.right-search-nav {
+  float: right;
+}*/
+
+.search-profile {
+  height: 13vh;
+  width: 7vw;
+  border: 1px solid green;
+  display: inline-block;
+  margin: -2px -2px -2px -2px;
+}
+
+.search-calendar{
+  height: 13vh;
+  width: 7vw;
+  border: 1px solid green;
+  display: inline-block;
+  margin: -2px -2px -2px -2px;
+}
+
+.search-options {
+  height: 13vh;
+  width: 7vw;
+  border: 1px solid green;
+  display: inline-block;
+  margin: -2px -2px -2px -2px;
 }
 
 /*===DASHBOARD TOP===*/
 .dashboard-top {
   border: 1px solid green;
-  height: 20vh;
+  height: 25vh;
   width: 85vw;
   display: inline-block;
   margin: -2px 0 -2px 0;
@@ -48,7 +111,7 @@ body {
 /*===DASHBOARD BOTTOM===*/
 .dashboard-content-1 {
   border: 1px solid orange;
-  height: 30vh;
+  height: 35vh;
   width: 85vw;
   display: inline-block;
   margin: -2px 0 -2px 0;
@@ -57,7 +120,7 @@ body {
 .dashboard-content-bottom {
   border: 1px solid blue;
   width: 85vw;
-  height: 90vh;
+  height: 112.5vh;
   display: inline-block;
   margin: -2px 0 -2px 0;
   display: flex;
@@ -67,7 +130,7 @@ body {
 .dashboard-content-2 {
   border: 1px solid pink;
   width: 60%;
-  height: 90vh;
+  height: 112.5vh;
   display: inline-block;
   margin: -2px 0 -2px 0;
 }
@@ -75,7 +138,7 @@ body {
 .dashboard-content-3 {
   border: 1px solid purple;
   width: 40%;
-  height: 90vh;
+  height: 112.5vh;
   display: inline-block;
     margin: -2px 0 -2px 0;
 }
