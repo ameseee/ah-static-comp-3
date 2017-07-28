@@ -120,7 +120,7 @@ main {
 /*===DASHBOARD TOP===*/
 .dashboard-top {
   border: 1px solid green;
-  height: 30vh;
+  height: 35vh;
   width: 85vw;
   display: inline-block;
   margin: 0 0 -2px 0;
@@ -135,19 +135,68 @@ main {
   justify-content: space-between;
 }
 
-.dashboard-name {
+.dashboard-title-container {
   border: 1px solid red;
   font-size: 30px;
-  padding: 5px 5px 75px 5px;
+  padding: 5px 5px 5px 5px;
+  margin-top: 25px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.dashboard-location {
+  font-size: 12px;
+}
+
+.dashboard-preview {
+  color: turquoise;
+  font-size: 12px;
 }
 
 .dashboard-btns {
   border: 1px solid red;
+  display: flex;
+  flex-direction: row;
 }
+
+.open-btn,
+.flag-btn,
+.edit-btn,
+.home-btn {
+  border: 1px solid orange;
+  height: 30px;
+  margin: 4px;
+  margin-top: 40px;
+}
+
+.open-btn {
+  width: 100px;
+}
+
+.flag-btn,
+.edit-btn,
+.home-btn {
+  width: 40px;
+}
+
+.home-btn {
+  margin-right: 75px;
+}
+
 
 .dashboard-menu {
   border: 1px solid red;
   padding-top: 30px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 15px;
+  margin-left: 30px;
+}
+
+.nav1 {
+  padding-left: 5px;
 }
 /*===DASHBOARD BOTTOM===*/
 .content-1 {
