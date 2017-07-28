@@ -244,15 +244,28 @@ li {
 
 .content-2 {
   border: 1px solid pink;
-  width: 60%;
+  width: 70%;
   height: 108vh;
   display: inline-block;
   margin: -2px 0 -2px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.job-table {
+  border: 1px solid orange;
+  /*margin: 25px;*/
+  width: 90%;
+}
+
+td, th {
+  border: 1px solid maroon;
+  padding: 10px;
+}
 .content-3 {
   border: 1px solid purple;
-  width: 40%;
+  width: 30%;
   height: 108vh;
   display: inline-block;
   margin: -2px 0 -2px 0;
