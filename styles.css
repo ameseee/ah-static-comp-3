@@ -210,9 +210,21 @@ li {
   justify-content: space-around;
 }
 
+.circle-graph-section,
+.bar-graph-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .circle-graph {
   border: 1px solid blue;
   margin: 30px;
+}
+
+.circle-graph-btn,
+.bar-graph-btn {
+  height: 20px;
+  width: 50px;
 }
 
 .bar-graph {
