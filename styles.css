@@ -68,11 +68,7 @@ main {
 }
 
 .search-hamburger {
-  height: 15vh;
-  width: 7vw;
   background-color: green;
-  display: inline-block;
-  /*margin: -2px -2px -2px -2px;*/
 }
 
 .search-input {
@@ -94,27 +90,25 @@ main {
 }
 
 .search-profile {
-  height: 15vh;
-  width: 7.5vw;
   background-color: blue;
-  display: inline-block;
-  margin: 0 0 -2px 0;
 }
 
-.search-calendar{
+.search-calendar {
+  background-color: red;
+}
+
+.search-calendar,
+.search-options,
+.search-hamburger,
+.search-profile {
   height: 15vh;
   width: 7.5vw;
-  background-color: red;
   display: inline-block;
   margin: 0 0 -2px 0;
 }
 
 .search-options {
-  height: 15vh;
-  width: 7.5vw;
   background-color: yellow;
-  display: inline-block;
-  margin: 0 0 -2px 0;
 }
 
 /*===DASHBOARD TOP===*/
@@ -263,6 +257,7 @@ td, th {
   border: 1px solid maroon;
   padding: 10px;
 }
+
 .content-3 {
   border: 1px solid purple;
   width: 30%;
@@ -314,33 +309,91 @@ td, th {
   }
 
   .search-bar-nav {
-    height: 8vh;
+    height: 12vh;
+    width: 80vw;
+  }
+
+  .name,
+  .main-menu,
+  .admin-menu,
+  .categories-menu {
+    width: 20vw;
+  }
+
+  .right-search-nav {
+    height: 12vh;
+  }
+
+  .search-calendar,
+  .search-options,
+  .search-hamburger,
+  .search-profile {
+    height: 12vh;
+    width: 6vw;
+    display: inline-block;
+    margin: 0 0 -2px 0;
+  }
+
+  .search-input {
+    height: 12vh;
   }
 
   .dashboard-top {
-    height: 40vh;
+    height: 28vh;
+    width: 80vw;
+  }
+
+  .content-1 {
+    height: 80vh;
+    width: 80vw;
+    flex-direction: column;
+  }
+
+  .home-btn {
+    margin-right: 30px;
+  }
+
+  .dashboard-menu {
+    margin-top: 20px;
+  }
+
+  .circle-graph-section,
+  .bar-graph-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .content-bottom {
     display: flex;
     flex-direction: row;
-  }
-
-  .content-1 {
-    height: 80vh;
+    height: 140vh;
+    width: 80vw;
   }
 
   .content-2,
   .content-3 {
-    width: 100%;
+    width: 80vw;
   }
 
   .content-2 {
-    height: 68vh;
+    height: 90vh;
+  }
+
+  .job-table {
+    width: 75%;
   }
 
   .content-3 {
-    height: 40vh;
+    height: 50vh;
+    flex-direction: row;
+  }
+
+  .social-media-btns,
+  .job-section,
+  .widget-section,
+  .email-section {
+    width: 160px;
   }
 }
 
