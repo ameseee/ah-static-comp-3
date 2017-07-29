@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Lato";
 }
 
 /*===MAIN NAV===*/
@@ -192,6 +193,7 @@ li {
 .nav1 {
   padding-left: 5px;
 }
+
 /*===DASHBOARD BOTTOM===*/
 .content-1 {
   border: 1px solid orange;
@@ -255,7 +257,7 @@ li {
 
 td, th {
   border: 1px solid maroon;
-  padding: 10px;
+  padding: 20px 5px 20px 5px;
 }
 
 .content-3 {
@@ -280,6 +282,10 @@ td, th {
   margin: 10px;
   padding: 5px;
   height: 200px;
+}
+
+.td-topic {
+  width: 150px;
 }
 
 .widget-section {
@@ -309,7 +315,7 @@ td, th {
   }
 
   .search-bar-nav {
-    height: 12vh;
+    height: 10vh;
     width: 80vw;
   }
 
@@ -321,21 +327,21 @@ td, th {
   }
 
   .right-search-nav {
-    height: 12vh;
+    height: 10vh;
   }
 
   .search-calendar,
   .search-options,
   .search-hamburger,
   .search-profile {
-    height: 12vh;
+    height: 10vh;
     width: 6vw;
     display: inline-block;
     margin: 0 0 -2px 0;
   }
 
   .search-input {
-    height: 12vh;
+    height: 10vh;
   }
 
   .dashboard-top {
@@ -377,11 +383,11 @@ td, th {
   }
 
   .content-2 {
-    height: 90vh;
+    height: 110vh;
   }
 
   .job-table {
-    width: 75%;
+    width: 90%;
   }
 
   .content-3 {
