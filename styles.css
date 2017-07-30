@@ -287,22 +287,98 @@ li {
 .bar-graph-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .circle-graph {
   border: 1px solid blue;
   margin: 30px;
+  height: 140px;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.circle-graph-1 {
+  border: 10px solid red;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border-color: #4EB8BF #4EB8BF #4EB8BF #fff;
+  border-width: 10px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-graph-2 {
+  border: 10px solid #fff;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border-color: #4EB8BF #4EB8BF #fff #4EB8BF;
+  border-width: 10px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-graph-3 {
+  border: 10px solid red;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border-color: #4EB8BF #4EB8BF #4EB8BF #fff;
+  border-width: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-graph-num {
+  font-size: 175%;
+  color: grey;
+}
+
+.circle-graph-word {
+  font-size: 75%;
+  color: grey;
+}
+
+.bar-graph-btn {
+  height: 28px;
+  width: 118px;
+  text-transform: uppercase;
+}
+
+.circle-graph-btn {
+  height: 28px;
+  width: 153px;
 }
 
 .circle-graph-btn,
 .bar-graph-btn {
-  height: 20px;
-  width: 50px;
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 15px;
+  color: grey;
 }
 
 .bar-graph {
   border: 1px solid blue;
   margin: 30px;
+  background-image: url(/Users/amyholt/mod1/static-comp-3/assets/img/bar-graph.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 375px;
 }
 
 .content-bottom {
