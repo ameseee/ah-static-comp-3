@@ -166,7 +166,7 @@ main {
 .search-hamburger,
 .search-profile {
   height: 14vh;
-  width: 7.5vw;
+  width: 7.2vw;
   display: inline-block;
   margin: 0 0 -2px 0;
 }
@@ -267,6 +267,10 @@ li {
   margin-left: 30px;
 }
 
+#more {
+  display: none;
+}
+
 .nav1 {
   padding-left: 5px;
 }
@@ -293,12 +297,12 @@ li {
 
 .circle-graph {
   border: 1px solid blue;
-  margin: 30px;
+  /*margin: 30px;*/
   height: 140px;
   width: 450px;
   display: flex;
   flex-direction: row;
-  margin-top: 40px;
+  margin: 40px 0 30px 0;
 }
 
 .circle-graph-1 {
@@ -352,12 +356,6 @@ li {
   color: grey;
 }
 
-.bar-graph-btn {
-  height: 28px;
-  width: 118px;
-  text-transform: uppercase;
-}
-
 .circle-graph-btn {
   height: 28px;
   width: 153px;
@@ -371,9 +369,15 @@ li {
   color: grey;
 }
 
+.bar-graph-btn {
+  height: 28px;
+  width: 118px;
+  text-transform: uppercase;
+}
+
 .bar-graph {
   border: 1px solid blue;
-  margin: 30px;
+  margin: 30px 0 30px 0;
   background-image: url(/Users/amyholt/mod1/static-comp-3/assets/img/bar-graph.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -502,10 +506,22 @@ td, th {
     width: 80vw;
   }
 
+  #interview,
+  #activity,
+  #broadcast,
+  #notification {
+    display: none;
+  }
+
+  #more {
+    display: inline-block;
+  }
+
   .content-1 {
-    height: 80vh;
+    height: 95vh;
     width: 80vw;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
   }
 
   .home-btn {
