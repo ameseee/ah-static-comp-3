@@ -11,15 +11,15 @@
   width: 15vw;
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid red;
   float: left;
   display: inline-block;
+  background-color: #343f56;
 }
 
 .main-nav-box {
   height: 25%;
-  border: 1px solid magenta;
   display: block;
+  border-bottom:1px solid #222938;
 }
 
 .name {
@@ -40,6 +40,7 @@
 .profile-name {
   font-size: 75%;
   margin-top: 10px;
+  color: #eff4f7;
 }
 
 .main-menu {
@@ -50,21 +51,27 @@
 .main-nav-ul,
 .admin-nav-ul,
 .admin-nav-ul {
-  height: 40vh;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  color: #eff4f7;
+  font-size: 75%;
 }
 
 .main-nav-li,
 .admin-nav-li {
   text-transform: uppercase;
-  font-size: 75%;
+  letter-spacing: 0.75px;
+  font-size: 90%;
   font-weight: 700;
-  border: 1px solid magenta;
   padding: 10px;
   margin-left: 0;
 
+}
+
+.main-nav-link p {
+  color: #eff4f7;
 }
 
 .main-nav-link {
@@ -84,9 +91,9 @@
 .categories-nav-li {
   font-size: 75%;
   font-weight: 700;
-  border: 1px solid magenta;
   padding: 10px;
   margin-left: 0;
+  color: #eff4f7;
 }
 
 .admin-menu {
@@ -110,13 +117,14 @@ main {
 /*===SEARCH BAR NAV===*/
 
 .search-bar-nav {
-  border: 1px solid orange;
   height: 14vh;
   display: inline-block;
   margin: -2px 0 -2px 0;
   width: 85vw;
   display: flex;
   flex-direction: row;
+  border-bottom: 1px solid grey;
+
 }
 
 .left-search-nav {
@@ -127,24 +135,19 @@ main {
 }
 
 .search-hamburger {
-  background-color: green;
-}
-
-.icon-hamburger {
-  font-size: 50px;
-  color: grey;
+  border-right: 1px solid grey;
 }
 
 .search-input {
   height: 14vh;
   width: 56vw;
-  background-color: pink;
   display: inline-block;
-  /*margin: -2px -2px -2px -2px;*/
+  display: flex;
+  align-items: center;
+  border-right: 1px solid grey;
 }
 
 .right-search-nav {
-  border: 1px solid black;
   height: 14vh;
   width: 22vw;
   float: right;
@@ -154,11 +157,11 @@ main {
 }
 
 .search-profile {
-  background-color: blue;
+  border-right: 1px solid grey;
 }
 
 .search-calendar {
-  background-color: red;
+  border-right: 1px solid grey;
 }
 
 .search-calendar,
@@ -169,32 +172,35 @@ main {
   width: 7.2vw;
   display: inline-block;
   margin: 0 0 -2px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.search-options {
-  background-color: yellow;
+.icon-hamburger,
+.icon-search,
+.icon-user,
+.icon-calendar,
+.icon-sweden {
+  font-size: 32px;
+  color: grey;
 }
 
 /*===DASHBOARD TOP===*/
 .dashboard-top {
-  border: 1px solid green;
-  height: 35vh;
+  height: 27vh;
   width: 85vw;
   display: inline-block;
   margin: 0 0 -2px 0;
-  /*display: flex;
-  align-content: space-between;*/
 }
 
 .upper-dashboard-top {
-  border: 1px solid turquoise;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .dashboard-title-container {
-  border: 1px solid red;
   font-size: 30px;
   padding: 5px 5px 5px 5px;
   margin-top: 25px;
@@ -206,23 +212,37 @@ main {
   margin-bottom: 10px;
 }
 
+.location-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-location {
+  font-size: 12px;
+  padding-right: 4px;
+}
+
 .dashboard-location {
   font-size: 12px;
 }
 
 .dashboard-preview {
-  color: turquoise;
+  color: #4EB8BF;
   font-size: 12px;
+  padding-left: 4px;
 }
 
 .horiz-nav {
   text-transform: uppercase;
   font-size: 75%;
   font-weight: 700;
+  padding-bottom: 10px;
 }
 
+.horiz-nav:hover {
+  border-bottom: 5px solid #4EB8BF;
+}
 .dashboard-btns {
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
 }
@@ -231,7 +251,6 @@ main {
 .flag-btn,
 .edit-btn,
 .home-btn {
-  border: 1px solid orange;
   height: 30px;
   margin: 4px;
   margin-top: 40px;
@@ -242,22 +261,43 @@ main {
 
 .open-btn {
   width: 100px;
+  height: 36px;
   flex-direction: row;
+  border: 1px solid grey;
+  border-radius: 25px;
+}
+
+.icon-dot {
+  color: green;
+  font-size: 250%;
+}
+
+.open-btn-text {
+  text-transform: uppercase;
+  font-size: 75%;
+  font-weight: 700;
 }
 
 .flag-btn,
 .edit-btn,
 .home-btn {
-  width: 40px;
+  width: 36px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 36px;
 }
 
 .home-btn {
   margin-right: 75px;
 }
 
+.icon-bookmark,
+.icon-edit,
+.icon-cloud {
+  font-size: 90%;
+}
 
 .dashboard-menu {
-  border: 1px solid red;
   padding-top: 30px;
 }
 
@@ -267,7 +307,7 @@ li {
   margin-left: 30px;
 }
 
-#more {
+.more-nav {
   display: none;
 }
 
@@ -277,7 +317,6 @@ li {
 
 /*===DASHBOARD BOTTOM===*/
 .content-1 {
-  border: 1px solid orange;
   height: 45vh;
   width: 85vw;
   display: inline-block;
@@ -285,6 +324,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: #eff4f7;
 }
 
 .circle-graph-section,
@@ -296,8 +336,6 @@ li {
 }
 
 .circle-graph {
-  border: 1px solid blue;
-  /*margin: 30px;*/
   height: 140px;
   width: 450px;
   display: flex;
@@ -306,7 +344,7 @@ li {
 }
 
 .circle-graph-1 {
-  border: 10px solid red;
+  border: 10px solid #fff;
   height: 130px;
   width: 130px;
   border-radius: 50%;
@@ -334,7 +372,7 @@ li {
 }
 
 .circle-graph-3 {
-  border: 10px solid red;
+  border: 10px solid #fff;
   height: 130px;
   width: 130px;
   border-radius: 50%;
@@ -376,7 +414,6 @@ li {
 }
 
 .bar-graph {
-  border: 1px solid blue;
   margin: 30px 0 30px 0;
   background-image: url(/Users/amyholt/mod1/static-comp-3/assets/img/bar-graph.png);
   background-repeat: no-repeat;
@@ -386,7 +423,6 @@ li {
 }
 
 .content-bottom {
-  border: 1px solid blue;
   width: 85vw;
   height: 108vh;
   display: inline-block;
@@ -408,7 +444,6 @@ li {
 
 .job-table {
   border: 1px solid orange;
-  /*margin: 25px;*/
   width: 90%;
 }
 
@@ -582,6 +617,23 @@ td, th {
     width: 100vw;
   }
 
+  .search-bar-nav,
+  .left-search-nav,
+  .right-search-nav {
+    height: 6vh;
+  }
+  .search-input {
+    width: 76vw;
+    height: 6vh;
+  }
+
+  .search-calendar,
+  .search-options,
+  .search-hamburger,
+  .search-profile {
+    height: 6vh;
+  }
+
   .dashboard-top,
   .content-1,
   .content-bottom,
@@ -589,5 +641,41 @@ td, th {
   .content-3 {
     width: 100vw;
   }
+
+  .upper-dashboard-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dashboard-title-container {
+    margin-left: 0;
+  }
+  .dashboard-title {
+    font-size: 110%;
+  }
+
+  .open-btn,
+  .home-btn,
+  .flag-btn,
+  .edit-btn {
+    margin-top: 10px;
+  }
+
+  .home-btn {
+    margin-right: 5px;
+  }
+
+  .dashboard-menu {
+    padding-top: 0;
+  }
+
+  .more-nav {
+    display: flex;
+    width: 50px;
+    flex-direction: row;
+  }
+
 
 }
