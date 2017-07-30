@@ -25,6 +25,21 @@
 .name {
   height: 30vh;
   width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 90px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 75%;
+  margin-top: 10px;
 }
 
 .main-menu {
@@ -32,10 +47,53 @@
   width: 15vw;
 }
 
+.main-nav-ul,
+.admin-nav-ul,
+.admin-nav-ul {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.main-nav-li,
+.admin-nav-li {
+  text-transform: uppercase;
+  font-size: 75%;
+  font-weight: 700;
+  border: 1px solid magenta;
+  padding: 10px;
+  margin-left: 0;
+
+}
+
+.main-nav-link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.main-nav-link:hover {
+  color: red;
+}
+
+.main-nav-link p {
+  padding-right: 8px;
+}
+
+.categories-nav-li {
+  font-size: 75%;
+  font-weight: 700;
+  border: 1px solid magenta;
+  padding: 10px;
+  margin-left: 0;
+}
+
 .admin-menu {
   height: 40vh;
   width: 15vw;
 }
+
 .categories-menu {
   height: 80vh;
   width: 15vw;
@@ -53,7 +111,7 @@ main {
 
 .search-bar-nav {
   border: 1px solid orange;
-  height: 15vh;
+  height: 14vh;
   display: inline-block;
   margin: -2px 0 -2px 0;
   width: 85vw;
@@ -72,8 +130,13 @@ main {
   background-color: green;
 }
 
+.icon-hamburger {
+  font-size: 50px;
+  color: grey;
+}
+
 .search-input {
-  height: 15vh;
+  height: 14vh;
   width: 56vw;
   background-color: pink;
   display: inline-block;
@@ -82,7 +145,7 @@ main {
 
 .right-search-nav {
   border: 1px solid black;
-  height: 15vh;
+  height: 14vh;
   width: 22vw;
   float: right;
   display: inline-block;
@@ -102,7 +165,7 @@ main {
 .search-options,
 .search-hamburger,
 .search-profile {
-  height: 15vh;
+  height: 14vh;
   width: 7.5vw;
   display: inline-block;
   margin: 0 0 -2px 0;
@@ -139,6 +202,10 @@ main {
   margin-left: 30px;
 }
 
+.dashboard-title {
+  margin-bottom: 10px;
+}
+
 .dashboard-location {
   font-size: 12px;
 }
@@ -146,6 +213,12 @@ main {
 .dashboard-preview {
   color: turquoise;
   font-size: 12px;
+}
+
+.horiz-nav {
+  text-transform: uppercase;
+  font-size: 75%;
+  font-weight: 700;
 }
 
 .dashboard-btns {
@@ -162,10 +235,14 @@ main {
   height: 30px;
   margin: 4px;
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .open-btn {
   width: 100px;
+  flex-direction: row;
 }
 
 .flag-btn,

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://file.myfontastic.com/8tiHBtpvKJZFC6dwbX4ADd/icons.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Holt Static Comp 3</title>
   </head>
@@ -12,10 +13,88 @@
 
     <nav class="main-nav-container">
 
-      <article class="main-nav-box name">NAME/PIC</article>
-      <article class="main-nav-box main-menu">MAIN</article>
-      <article class="main-nav-box admin-menu">ADMIN</article>
-      <article class="main-nav-box categories-menu">CATEGORIES</article>
+      <article class="main-nav-box name">
+        <img class="profile-img" src="assets/img/hamilton-profile-pic.jpg" alt="Photo of Lin-Manuel Miranda acting as Alexander Hamilton">
+        <div class="profile-name-container">
+          <p class="profile-name">Alexander Hamilton</p>
+        </div>
+      </article>
+      <article class="main-nav-box main-menu">
+        <ul class="main-nav-ul">Main
+          <li class="main-nav-li">
+            <a class="main-nav-link" href="#">
+              <p class="icon-home"></p>
+              <p>Home</p>
+            </a>
+          </li>
+          <li class="main-nav-li">
+            <a class="main-nav-link" href="#">
+              <p class="icon-jobs"></p>
+              <p>Jobs</p>
+            </a>
+          </li>
+          <li class="main-nav-li">
+            <a class="main-nav-link" href="#">
+              <p class="icon-resume"></p>
+              <p>Resume</p>
+            </a>
+          </li>
+          <li class="main-nav-li">
+            <a class="main-nav-link" href="#">
+              <p class="icon-task"></p>
+              <p>Tasks</p>
+            </a>
+          </li>
+          <li class="main-nav-li">
+            <a class="main-nav-link" href="#">
+              <p class="icon-calendar"></p>
+              <p>Calendar</p>
+            </a>
+          </li>
+        </ul>
+      </article>
+      <article class="main-nav-box admin-menu">
+        <ul class="admin-nav-ul">Admin
+          <li class="admin-nav-li">
+            <a class="main-nav-link" href="#">
+              <p class="icon-users"></p>
+              <p>Users</p>
+            </a>
+          </li>
+          <li class="admin-nav-li">
+            <a class="main-nav-link" href="#">
+              <p class=""></p>
+              <p>Locations</p>
+            </a>
+          </li>
+          <li class="admin-nav-li">
+            <a class="main-nav-link" href="#">
+              <p class="icon-workflow"></p>
+              <p>Workflows</p>
+            </a>
+          </li>
+          <li class="admin-nav-li">
+            <a class="main-nav-link" href="#">
+              <p class="icon-job-board"></p>
+              <p>Job Boards</p>
+            </a>
+          </li>
+          <li class="admin-nav-li">
+            <a class="main-nav-link" href="#">
+              <p class=""></p>
+              <p>Social</p>
+            </a>
+          </li>
+        </ul>
+      </article>
+      <article class="main-nav-box categories-menu">
+        <ul class="admin-nav-ul">Categories
+          <li class="categories-nav-li">Administrative</li>
+          <li class="categories-nav-li">Design</li>
+          <li class="categories-nav-li">Executive</li>
+          <li class="categories-nav-li">Human Resources</li>
+        </ul>
+      </article>
 
     </nav>
 
@@ -24,14 +103,24 @@
     <section class="search-bar-nav">
 
       <div class="left-search-nav">
-        <article class="search-hamburger">HAM I</article>
-        <article class="search-input">SEARCH</article>
+        <article class="search-hamburger">
+          <p class="icon-hamburger"></p>
+        </article>
+        <article class="search-input">
+          <p class="icon-search"></p>
+        </article>
       </div>
 
       <div class="right-search-nav">
-        <article class="search-profile">PROFILE I</article>
-        <article class="search-calendar">CALENDAR I</article>
-        <article class="search-options">OPTIONS I</article>
+        <article class="search-profile">
+          <p class="icon-user"></p>
+        </article>
+        <article class="search-calendar">
+          <p class="icon-calendar"></p>
+        </article>
+        <article class="search-options">
+          <p class="icon-sweden"></p>
+        </article>
       </div>
 
     </section>
@@ -40,24 +129,34 @@
       <div class="upper-dashboard-top">
         <article class="dashboard-title-container">
           <h1 class="dashboard-title">Founding Father</h1>
-          <p class="dashboard-location">New York City <span class="dashboard-preview">Preview this post</span></p>
+          <p></p>
+          <p class="dashboard-location">New York City - <span class="dashboard-preview">Preview this post</span></p>
         </article>
         <article class="dashboard-btns">
-          <div class="open-btn">open</div>
-          <div class="flag-btn">F</div>
-          <div class="edit-btn">E</div>
-          <div class="home-btn">H</div>
+          <div class="open-btn">
+            <p class="icon-dot"></p>
+            <p>Open</p>
+          </div>
+          <div class="flag-btn">
+            <p class="icon-bookmark"></p>
+          </div>
+          <div class="edit-btn">
+            <p class="icon-edit"></p>
+          </div>
+          <div class="home-btn">
+            <p class="icon-cloud"></p>
+          </div>
         </article>
       </div>
       <div class="lower-dashboard-top">
         <ul class="dashboard-menu">
-          <li class="nav1">nav1</li>
-          <li class="">nav2</li>
-          <li class="">nav3</li>
-          <li class="">nav4</li>
-          <li class="">nav5</li>
-          <li class="">nav6</li>
-          <li class="">nav7</li>
+          <li class="horiz-nav">Summary</li>
+          <li class="horiz-nav">Applicants</li>
+          <li class="horiz-nav">Job Board</li>
+          <li class="horiz-nav">Interviews</li>
+          <li class="horiz-nav">Activity</li>
+          <li class="horiz-nav">Broadcast</li>
+          <li class="horiz-nav">Notifications</li>
         </ul>
       </div>
 
