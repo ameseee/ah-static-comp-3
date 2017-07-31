@@ -43,6 +43,9 @@
   color: #eff4f7;
 }
 
+.icon-angle-down {
+  color: white;
+}
 .main-menu {
   height: 40vh;
   width: 15vw;
@@ -186,6 +189,10 @@ main {
   color: grey;
 }
 
+.icon-search {
+  margin-left: 10px;
+}
+
 /*===DASHBOARD TOP===*/
 .dashboard-top {
   height: 27vh;
@@ -237,11 +244,14 @@ main {
   font-size: 75%;
   font-weight: 700;
   padding-bottom: 10px;
+  padding-right: 0;
+  margin-left: 35px;
 }
 
 .horiz-nav:hover {
   border-bottom: 5px solid #4EB8BF;
 }
+
 .dashboard-btns {
   display: flex;
   flex-direction: row;
@@ -460,8 +470,13 @@ th {
 }
 
 td {
-  border-bottom: 1px solid grey;
   background-color: #fff;
+  border-bottom: 1px solid grey;
+}
+
+tr {
+  width: 90%;
+  margin-left: 5px;
 }
 
 .bottom-td {
@@ -474,10 +489,6 @@ td {
   border-radius: 3px;
   background-color: #757983;
 }
-
-/*.icon-edit {
-  font-size: 14px;
-}*/
 
 .td-edit-btn {
   border: none;
@@ -498,9 +509,18 @@ td {
   margin-left: 10px;
 }
 
-td .td-topic {
-   padding-left: 5px;
- }
+.left-col,
+.right-col {
+  width: 20px;
+  border-bottom: none;
+  background-color: #fff;
+}
+
+.left-col-header,
+.right-col-header {
+  width: 20px;
+  border-bottom: none;
+}
 
 .td-info {
   font-size: 85%;
