@@ -492,6 +492,7 @@ li {
   border-spacing: 0;
   padding-left: 10px;
   padding-right: 10px;
+  margin: auto;
 }
 
 td, th {
@@ -589,6 +590,36 @@ tr {
   margin: 10px;
   padding: 5px;
   height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fb-btn p ,
+.twitter-btn p,
+.linkedin-btn p {
+  display: inline-block;
+}
+.fb-btn {
+  background-color: #3b5998;
+  border: none;
+  color: #fff;
+  height: 35px;
+  margin-bottom: 5px;
+}
+
+.twitter-btn {
+  background-color: #1da1f2;
+  border: none;
+  color: #fff;
+  height: 35px;
+  margin-bottom: 5px;
+}
+
+.linkedin-btn {
+  background-color: #0077b5;
+  border: none;
+  color: #fff;
+    height: 35px;
 }
 
 .job-section {
@@ -798,6 +829,5 @@ tr {
     width: 50px;
     flex-direction: row;
   }
-
 
 }
