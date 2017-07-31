@@ -358,6 +358,32 @@ li {
   padding-left: 5px;
 }
 
+.divider {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.hr-left {
+  width: 55%;
+  height: 1px;
+}
+
+.hr-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+}
+
+.hr-right {
+  width: 55%;
+  height: 1px;
+}
+
 /*===DASHBOARD BOTTOM===*/
 .content-1 {
   height: 280px;
@@ -474,7 +500,6 @@ li {
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: #eff4f7;
-  border-top: 1px solid maroon;
 }
 
 .content-2 {
@@ -496,7 +521,7 @@ li {
 }
 
 td, th {
-  padding: 20px 5px 20px 10px;
+  padding: 21px 5px 21px 10px;
   margin-left: 10px;
 }
 
@@ -621,7 +646,7 @@ tr {
 }
 
 .job-section {
-  margin: 5px 30px 5px 30px;
+  margin: 22px 30px 5px 30px;
   border-bottom: 1px solid grey;
 }
 
