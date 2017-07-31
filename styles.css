@@ -7,7 +7,7 @@
 
 /*===MAIN NAV===*/
 .main-nav-container {
-  height: 195vh;
+  /*height: 195vh;*/
   width: 15vw;
   display: flex;
   flex-wrap: wrap;
@@ -17,7 +17,6 @@
 }
 
 .main-nav-box {
-  height: 25%;
   display: block;
   border-bottom:1px solid #222938;
 }
@@ -114,7 +113,7 @@
 }
 
 .categories-menu {
-  height: 80vh;
+  height: 503px;
   width: 15vw;
 }
 
@@ -224,7 +223,7 @@ main {
 
 /*===DASHBOARD TOP===*/
 .dashboard-top {
-  height: 27vh;
+  height: 168px;
   width: 85vw;
   display: inline-block;
   margin: 0 0 -2px 0;
@@ -361,7 +360,7 @@ li {
 
 /*===DASHBOARD BOTTOM===*/
 .content-1 {
-  height: 45vh;
+  height: 280px;
   width: 85vw;
   display: inline-block;
   margin: -2px 0 -2px 0;
@@ -468,7 +467,7 @@ li {
 
 .content-bottom {
   width: 85vw;
-  height: 108vh;
+  height: 660px;
   display: inline-block;
   margin: -2px 0 -2px 0;
   display: flex;
@@ -479,7 +478,7 @@ li {
 
 .content-2 {
   width: 70%;
-  height: 108vh;
+  height: 660px;
   display: inline-block;
   margin: -2px 0 -2px 0;
   display: flex;
@@ -578,7 +577,7 @@ tr {
 .content-3 {
   border: 1px solid purple;
   width: 30%;
-  height: 108vh;
+  height: 660px;
   display: inline-block;
   margin: -2px 0 -2px 0;
   display: flex;
