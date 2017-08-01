@@ -192,7 +192,7 @@ main {
 
 .search-text {
   color: #929797;
-  padding-left: 10px;
+  margin-left: -10px;
 }
 
 .right-search-nav {
@@ -369,7 +369,7 @@ main {
 }
 
 .home-btn {
-  margin-right: 75px;
+  margin-right: 45px;
 }
 
 .icon-bookmark,
@@ -401,31 +401,32 @@ li {
   display: flex;
   flex-direction: row;
   align-content: space-around;
+  align-items: center;
   justify-content: center;
   width: 90%;
   margin: auto;
+  margin-top: 35px;
 }
 
-.hr-left {
-  width: 55%;
-  height: 1px;
-}
-
-.hr-btn {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: none;
-}
-
+.hr-left,
 .hr-right {
   width: 55%;
   height: 1px;
+  color: #929797;
+}
+
+.hr-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  border: 1px solid #929797;
 }
 
 /*===DASHBOARD BOTTOM===*/
 .content-1 {
-  height: 280px;
+  height: 315px;
   width: 85vw;
   display: inline-block;
   margin: -2px 0 -2px 0;
@@ -434,6 +435,7 @@ li {
   justify-content: space-around;
   background-color: #eff4f7;
   border-top: 1px solid #EFF3F6;
+  padding-top: 15px;
 }
 
 .circle-graph-section,
@@ -842,7 +844,7 @@ tr {
   }
 
   .search-bar-nav {
-    height: 10vh;
+    height: 62px;
     width: 80vw;
   }
 
@@ -853,27 +855,45 @@ tr {
     width: 20vw;
   }
 
+  .categories-menu {
+    height: 1046px;
+  }
   .right-search-nav {
-    height: 10vh;
+    height: 62px;
   }
 
   .search-calendar,
   .search-options,
   .search-hamburger,
   .search-profile {
-    height: 10vh;
+    height: 62px;
     width: 6vw;
     display: inline-block;
     margin: 0 0 -2px 0;
   }
 
   .search-input {
-    height: 10vh;
+    height: 62px;
+  }
+
+  .icon-hamburger,
+  .icon-search,
+  .icon-user,
+  .big-calendar,
+  .icon-sweden {
+    font-size: 24px;
+    height: 62px;
+    width: 6vw;
   }
 
   .dashboard-top {
-    height: 28vh;
+    height: 185px;
     width: 80vw;
+  }
+
+  .dashboard-menu {
+    display: flex;
+    flex-direction: row;
   }
 
   #interview,
@@ -883,12 +903,18 @@ tr {
     display: none;
   }
 
-  #more {
-    display: inline-block;
+  .divider {
+    margin-top: 5px;
+  }
+
+  .more-nav {
+    display: flex;
+    width: 50px;
+    flex-direction: row;
   }
 
   .content-1 {
-    height: 95vh;
+    height: 580px;
     width: 80vw;
     display: flex;
     flex-direction: row;
@@ -902,11 +928,23 @@ tr {
     margin-top: 20px;
   }
 
+  .dashboard-title-container {
+    margin-top: 30px;
+  }
+
+  .dashboard-title {
+    font-size: 100%;
+  }
+
   .circle-graph-section,
   .bar-graph-section {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .bar-graph-section {
+    height: 285px;
   }
 
   .content-bottom {
@@ -922,7 +960,7 @@ tr {
   }
 
   .content-2 {
-    height: 110vh;
+    height: 655px;
   }
 
   .job-table {
@@ -930,15 +968,93 @@ tr {
   }
 
   .content-3 {
-    height: 50vh;
+    height: 225px;
     flex-direction: row;
+    width: 90%;
+    align-content: space-around;
+    align-content: space-around;
   }
 
-  .social-media-btns,
   .job-section,
   .widget-section,
   .email-section {
-    width: 160px;
+    width: 165px;
+    margin-top: 0;
+  }
+
+  .job-section {
+    margin-left: 10px;
+  }
+
+  .social-media-btns {
+    align-items: center;
+    width: 55px;
+    margin-right: 20px;
+    padding-left: 0;
+    margin-top: 0;
+  }
+
+  .fb-text,
+  .twitter-text,
+  .linkedin-text {
+    visibility: hidden;
+  }
+
+  .fb-btn,
+  .twitter-btn,
+  .linkedin-btn {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-facebook {
+    margin-left: 25px;
+  }
+
+  .aside-input {
+    width: 115px;
+    margin-bottom: 10px;
+  }
+
+  .aside-input:last-child {
+    width: 115px;
+    margin-right: 20px;
+  }
+
+  .aside-copy-btn {
+    margin-left: -5px;
+  }
+
+  .job-section {
+    margin: 0px 5px 10px 0px;
+    border-bottom: none;
+    width: 200px;
+  }
+
+  .td-topic {
+    width: 150px;
+    letter-spacing: 0.6px;
+  }
+
+  .widget-section {
+    margin: 0px 5px 10px 0px;
+    border-bottom: none;
+    width: 200px;
+  }
+
+  .email-section {
+    margin: 0px 0px 10px 0px;
+    width: 180px;
+  }
+
+  .hide-use-the {
+    display: none;
+  }
+
+  .hide-by-email {
+    display: none;
   }
 
 }
@@ -958,6 +1074,7 @@ tr {
   .right-search-nav {
     height: 6vh;
   }
+
   .search-input {
     width: 76vw;
     height: 6vh;
@@ -988,6 +1105,7 @@ tr {
   .dashboard-title-container {
     margin-left: 0;
   }
+
   .dashboard-title {
     font-size: 110%;
   }
@@ -1005,12 +1123,6 @@ tr {
 
   .dashboard-menu {
     padding-top: 0;
-  }
-
-  .more-nav {
-    display: flex;
-    width: 50px;
-    flex-direction: row;
   }
 
 }
