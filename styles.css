@@ -150,7 +150,7 @@ main {
 /*===SEARCH BAR NAV===*/
 
 .search-bar-nav {
-  height: 85px;
+  height: 75px;
   display: inline-block;
   margin: -2px 0 -2px 0;
   width: 85vw;
@@ -171,17 +171,22 @@ main {
 }
 
 .search-input {
-  height: 85px;
-  width: 56vw;
+  height: 75px;
+  width: 57vw;
   display: inline-block;
   display: flex;
   align-items: center;
   border-right: 1px solid #d4d8d8;
 }
 
+.search-text {
+  color: #929797;
+  padding-left: 10px;
+}
+
 .right-search-nav {
-  height: 85px;
-  width: 22vw;
+  height: 75px;
+  width: 21vw;
   float: right;
   display: inline-block;
   display: flex;
@@ -200,8 +205,8 @@ main {
 .search-options,
 .search-hamburger,
 .search-profile {
-  height: 85px;
-  width: 7.2vw;
+  height: 75px;
+  width: 7vw;
   display: inline-block;
   margin: 0 0 -2px 0;
   display: flex;
@@ -214,7 +219,7 @@ main {
 .icon-user,
 .big-calendar,
 .icon-sweden {
-  font-size: 32px;
+  font-size: 26px;
   color: #929797;
 }
 
@@ -401,6 +406,7 @@ li {
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: #eff4f7;
+  border-top: 1px solid #EFF3F6;
 }
 
 .circle-graph-section,
