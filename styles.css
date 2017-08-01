@@ -59,7 +59,7 @@
 }
 
 .main-menu {
-  height: 215px;;
+  height: 215px;
   width: 15vw;
 }
 
@@ -81,6 +81,19 @@
   font-size: 90%;
   padding: 11px;
   margin-left: 0;
+  border-left: 2px solid #343f56;
+}
+
+.main-nav-li:hover,
+.admin-nav-li:hover,
+.categories-nav-li:hover {
+  background-color: #222938;
+  color: #fff;
+  border-left: 2px solid #07adf9;
+}
+
+.main-nav-li:first-child {
+  margin-top: 10px;
 }
 
 .main-nav-link p {
@@ -102,43 +115,41 @@
 }
 
 .categories-nav-li {
-  font-size: 75%;
+  font-size: 100%;
   font-weight: 700;
   padding: 10px;
   margin-left: 0;
   color: #eff4f7;
+  border-left: 2px solid #343f56;
 }
 
 .admin-menu {
-  height: 40vh;
+  height: 215px;
   width: 15vw;
 }
 
+.admin-nav-li:first-child {
+  margin-top: 10px;
+}
 .categories-menu {
-  height: 503px;
+  height: 556px;
   width: 15vw;
 }
 
-.icon-square,
-.icon-minus-square {
-   font-size: 75%;
+.categories-nav-li:first-child {
+  margin-top: 10px;
+}
+.categories-nav-li p {
+  display: inline-block;
+  margin-left: 8px;
 }
 
-.icon-minus-square {
-  color: yellow;
+.square-icon {
+  height: 10px;
+  width: auto;
+  display: inline-block;
 }
 
-.red {
-  color: red;
-}
-
-.green {
-  color: green;
-}
-
-.blue {
-  color: blue;
-}
 /*===MAIN==*/
 
 main {
@@ -209,9 +220,6 @@ main {
   width: 7vw;
   display: inline-block;
   margin: 0 0 -2px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .icon-hamburger,
@@ -221,10 +229,23 @@ main {
 .icon-sweden {
   font-size: 26px;
   color: #929797;
+  height: 75px;
+  width: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-search {
-  margin-left: 10px;
+  margin-left: -10px;
+}
+
+.icon-hamburger:hover,
+.icon-user:hover,
+.big-calendar:hover,
+.icon-sweden:hover {
+  color: #fff;
+  background-color: #07adf9;
 }
 
 /*===DASHBOARD TOP===*/
@@ -311,7 +332,7 @@ main {
   width: 83px;
   height: 36px;
   flex-direction: row;
-  border: 1px solid grey;
+  border: 1px solid #929797;
   border-radius: 25px;
   position: relative;
 }
@@ -336,9 +357,15 @@ main {
 .edit-btn,
 .home-btn {
   width: 36px;
-  border: 1px solid #808484;
+  border: 1px solid #929797;
   border-radius: 50%;
   height: 36px;
+}
+
+.flag-btn:hover,
+.edit-btn:hover,
+.home-btn:hover {
+  background-color: #d4d8d8;
 }
 
 .home-btn {
@@ -432,7 +459,7 @@ li {
   border-radius: 50%;
   border-color: #4eb8bf #4eb8bf #4eb8bf #fff;
   border-width: 10px;
-  margin-right: 30px;
+  margin-right: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -446,7 +473,7 @@ li {
   border-radius: 50%;
   border-color: #fff #07adf9 #07adf9 #07adf9;
   border-width: 10px;
-  margin-right: 30px;
+  margin-right: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -487,6 +514,11 @@ li {
   border: 1px solid grey;
   border-radius: 15px;
   color: grey;
+}
+
+.circle-graph-btn:hover,
+.bar-graph-btn:hover {
+  background-color: #d4d8d8;
 }
 
 .bar-graph-btn {
@@ -563,12 +595,13 @@ tr {
   height: 30px;
   border-radius: 3px;
   background-color: #757983;
-}
-
-.td-edit-btn {
   border: none;
   display: inline-block;
   float: left;
+}
+
+.td-edit-btn:hover {
+  background-color: #989BA2;
 }
 
 .job-description {
@@ -698,6 +731,30 @@ tr {
   border-radius: 3px;
 }
 
+.icon-facebook,
+.icon-twitter,
+.linked-in-icon {
+  float: left;
+  margin-left: 15px;
+}
+
+.linked-in-icon {
+  height: 12px;
+  width: auto;
+}
+
+.fb-text {
+  margin-left: -20px;
+}
+
+.twitter-text {
+  margin-left: -27px;
+}
+
+.linkedin-text {
+  margin-left: -26px;
+}
+
 .job-section {
   margin: 22px 30px 10px 30px;
   border-bottom: 1px solid grey;
@@ -706,6 +763,7 @@ tr {
 
 .td-topic {
   width: 150px;
+  letter-spacing: 0.6px;
 }
 
 .widget-section {
@@ -765,6 +823,10 @@ tr {
   margin-left: -5px;
   border-radius: 0 3px 3px 0;
   color: #fff;
+}
+
+.aside-copy-btn:hover {
+  background-color: #3B8A8F;
 }
 
 /*===DASHBOARD BOTTOM===*/
