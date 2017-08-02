@@ -1,5 +1,3 @@
-/*line color: #ced2d2;*/
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +7,6 @@
 
 /*===MAIN NAV===*/
 .main-nav-container {
-  /*height: 195vh;*/
   width: 15vw;
   display: flex;
   flex-wrap: wrap;
@@ -131,6 +128,7 @@
 .admin-nav-li:first-child {
   margin-top: 10px;
 }
+
 .categories-menu {
   height: 563px;
   width: 15vw;
@@ -139,6 +137,7 @@
 .categories-nav-li:first-child {
   margin-top: 10px;
 }
+
 .categories-nav-li p {
   display: inline-block;
   margin-left: 8px;
@@ -401,6 +400,8 @@ li {
   padding-left: 5px;
 }
 
+/*=========DIVIDER=======*/
+
 .divider {
   display: flex;
   flex-direction: row;
@@ -428,6 +429,14 @@ li {
   border: 1px solid #929797;
 }
 
+.hr-btn:hover {
+  background-color: #d4d8d8;
+}
+
+.divider-btn {
+  height: 10px;
+  width: auto;
+}
 /*===DASHBOARD BOTTOM===*/
 .content-1 {
   height: 315px;
@@ -1231,6 +1240,16 @@ tr {
     text-align: center;
     margin-top: 40px;
     margin-right: 50px;
+  }
+
+  .hidden-btn:hover {
+    background-color: #d4d8d8;
+  }
+
+  .hidden-more-btn {
+    height: 10px;
+    width: auto;
+    background-color: #fff;
   }
 
   .open-btn,
